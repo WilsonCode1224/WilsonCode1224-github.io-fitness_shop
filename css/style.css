@@ -151,7 +151,7 @@ a {
 
 .header {
   position: relative;
-  background-image: url("/img/banner.avif");
+  background-image: url("../img/banner.avif");
   height: 700px;
   opacity: 0.7;
   background-size: cover;
@@ -374,13 +374,13 @@ span {
 }
 
 .shop-photo-1 {
-  background-image: url("/img/hotsale-1.avif");
+  background-image: url("../img/hotsale-1.avif");
   background-size: cover;
   background-position: center;
 }
 
 .shop-photo-2 {
-  background-image: url("/img/hotsale-2.avif");
+  background-image: url("../img/hotsale-2.avif");
   background-size: cover;
   background-position: center;
 }
@@ -392,12 +392,12 @@ span {
 }
 
 .shop-photo-4 {
-  background-image: url("/img/hotsale-4.avif");
+  background-image: url("../img/hotsale-4.avif");
   background-size: cover;
   background-position: center;
 }
 .shop-photo-5 {
-  background-image: url("/img/hotsale-5.avif");
+  background-image: url("../img/hotsale-5.avif");
   background-size: cover;
   background-position: center;
 }
