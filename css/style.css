@@ -374,25 +374,25 @@ span {
 }
 
 .shop-photo-1 {
-  background-image: url("/img/hotsale-1.avif");
+  background-image: url("./img/hotsale-1.avif");
   background-size: cover;
   background-position: center;
 }
 
 .shop-photo-2 {
-  background-image: url("/img/hotsale-2.avif");
+  background-image: url("./img/hotsale-2.avif");
   background-size: cover;
   background-position: center;
 }
 
 .shop-photo-3 {
-  background-image: url("/img/hotsale-3.avif");
+  background-image: url("./img/hotsale-3.avif");
   background-size: cover;
   background-position: center;
 }
 
 .shop-photo-4 {
-  background-image: url("/img/hotsale-4.avif");
+  background-image: url("./img/hotsale-4.avif");
   background-size: cover;
   background-position: center;
 }
