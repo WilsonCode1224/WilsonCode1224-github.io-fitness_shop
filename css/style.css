@@ -123,6 +123,15 @@ table {
   border-spacing: 0;
 }
 
+/* Gobal css */
+
+.topHeaderhover {
+  background-color: white;
+}
+
+.topHeaderhover a {
+  color: black;
+}
 /* User Css */
 
 body {
