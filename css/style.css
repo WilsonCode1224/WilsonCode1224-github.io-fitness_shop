@@ -386,7 +386,7 @@ span {
 }
 
 .shop-photo-3 {
-  background-image: url("/img/hotsale-3.avif");
+  background-image: url("../img/hotsale-3.avif");
   background-size: cover;
   background-position: center;
 }
