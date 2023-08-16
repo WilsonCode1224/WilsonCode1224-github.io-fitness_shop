@@ -215,6 +215,11 @@ ul.list-nav {
   border-bottom: 0.5px solid #fcfcfc;
 }
 
+ul.list-nav a:hover {
+  transition: 1.5s all ease;
+  border-bottom: 1px solid #000;
+}
+
 ul.list-nav li {
   padding-left: 15px;
   padding-right: 15px;
@@ -224,6 +229,10 @@ ul.list-nav a {
   padding-top: 5px;
   padding-bottom: 5px;
   display: block;
+}
+
+.aHover {
+  border-bottom: 2px solid #000;
 }
 
 .banner-nav {
