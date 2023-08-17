@@ -168,10 +168,11 @@ a {
 }
 
 .header {
+  z-index: 9999;
   position: relative;
   background-image: url("../img/banner.avif");
   height: 700px;
-  opacity: 0.7;
+  opacity: 0.8;
   background-size: cover;
 }
 
@@ -180,7 +181,6 @@ a {
 }
 
 .top-header {
-  z-index: 9999 !important;
   position: fixed;
   top: 0;
   width: 100%;
