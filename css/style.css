@@ -132,6 +132,15 @@ table {
 .topHeaderhover a {
   color: black;
 }
+
+.topHeaderforscroll {
+  background-color: white;
+}
+
+.topHeaderforscroll a {
+  color: black;
+}
+
 /* User Css */
 
 body {
@@ -171,11 +180,13 @@ a {
 }
 
 .top-header {
-  z-index: 100;
+  z-index: 9999 !important;
   position: fixed;
   top: 0;
   width: 100%;
 }
+
+/* top-header js style */
 
 .title {
   text-align: center;
@@ -215,11 +226,6 @@ ul.list-nav {
   border-bottom: 0.5px solid #fcfcfc;
 }
 
-ul.list-nav a:hover {
-  transition: 1.5s all ease;
-  border-bottom: 1px solid #000;
-}
-
 ul.list-nav li {
   padding-left: 15px;
   padding-right: 15px;
@@ -229,6 +235,23 @@ ul.list-nav a {
   padding-top: 5px;
   padding-bottom: 5px;
   display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+ul.list-nav a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: width 0.5s;
+}
+
+ul.list-nav a:hover::before {
+  width: 100%;
 }
 
 .aHover {
@@ -254,9 +277,9 @@ ul.list-nav a {
 
 /* content */
 
-.content {
-  padding-top: 30px;
-}
+/* .content {
+
+} */
 
 .content h2 a,
 span {
@@ -264,6 +287,8 @@ span {
 }
 
 .content {
+  z-index: 1;
+  padding-top: 30px;
   display: flex;
   /* 主軸置中 */
   justify-content: center;
